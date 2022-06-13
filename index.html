@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -11,15 +16,16 @@
     </header>
     <main>
         <section>
-            <form>
-                <textarea name="" class="mensaje" cols="30" rows="10">Hola raton</textarea>
-                <button class="encriptar">Encriptar</button>
-                <button class="desencriptar">Desencriptar</button>
-            </form>
+            <textarea class="mensaje" type="text" name="mensaje" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+                <h6>Solo letras minúsculas y sin acentos</h6>
+            <div>
+                <button class="btn-encriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" type="button">Desencriptar</button>
+            </div>
         </section>
         <section>
-            <input class="encriptado" type="text">
-            <button>Copiar</button>
+            <textarea class="salida" type="text" name="salida" cols="18" rows="8"></textarea>
+            <button class="btn-copiar" type="button">Copiar</button>
         </section>
     </main>
     <footer>

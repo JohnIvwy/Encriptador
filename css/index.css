@@ -1,3 +1,36 @@
-body{
-    background: white;
+*{
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header{
+    margin: 40px 30px 10px 70px;
+}
+
+.logo{
+    height: 48px;
+    width: 31.085588455200195px;
+    left: 44px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    flex-direction: row;
+}
+
+.mensaje {
+    margin: 40px;
+}
+
+.salida {
+    position: relative;
+    margin: 40px;
 }
